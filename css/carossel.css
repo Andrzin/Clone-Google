@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.texto{
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    overflow-x: scroll;
+    max-height: 370px;
+    overflow-y: hidden;
+}
+
+.slider li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100vw;
+}
+
+.slider li div {
+    width: 60vw;
+}
